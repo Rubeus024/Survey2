@@ -1,0 +1,9 @@
+{% extends "layout.html"%}
+
+{% block contentas %}
+<form action="" method="post" name="text">
+    {{ form.hidden_tag() }}
+    {{form.text_area(size=60)}}
+    {{form.submit()}}
+</form>
+{% endblock%}

@@ -1,0 +1,9 @@
+{%extends 'layout.html'%}
+{%block contentas%}
+    <div>
+        Microblog:
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('text') }}">Text</a>
+    </div>
+{%endblock%}
